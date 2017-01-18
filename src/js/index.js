@@ -2,7 +2,7 @@ import '../css/style.css';
 import $ from 'jquery';
 import p5 from 'p5';
 
-function sketch(p){
+const sketch = (p) => {
   var canvasWidth, currentCanvasWdith, currentCanvasHeight, scaleValue, centerT;
 
   p.responsive_canvas = () => {
